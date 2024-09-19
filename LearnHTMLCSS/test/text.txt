@@ -1,2 +1,28 @@
-Tout refaire avec des div
 API Key: cdcb5b9b-bb8b-42ff-8375-8ec5f4a7399d
+Verdana ou geneva sans serif    
+Variable css avec -- à définir dans body ou *
+a:hover
+a:active
+a:visited
+Chapitre 4 + d'infos
+
+:root
+--font-text: font
+--font-tittle: font
+--primary-color: couleur
+--secondary-color: couleur
+
+html
+scroll-behavior: smooth;
+
+body
+font-family: var(--font-text);
+color: var(--primary-color);
+background-color: color;
+
+wrapper
+
+h1, h2, h3, h4, h5, h6
+font-family: var(--font-title);
+
+ajouter un before

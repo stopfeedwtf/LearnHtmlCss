@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Léo Bozon</title>
-    <style>
-        *{
-            border: 1px solid red;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <div class="wrapper">
+    <nav class="container navigation">
         <a href="./index.html">Accueil</a>
         <a href="./blog.html">Blog</a>
     </nav>
     
     <h1>Portfolio de Léo Bozon</h1>
-    <table width="100%">
+    <table class="tableborder" width="100%">
         <tr>
             <td width="30%"><img src="ImgPortfolio/logo.png" alt="Portrait de Léo Bozon"></td> 
             <td width="70%">
@@ -51,27 +51,28 @@
         </tr>
         <tr>
             <th colspan="2"><span><b>Liens Utiles : </b></span><a href="https://github.com/stopfeedwtf" target="_blank">Github</a>
-                <form action="https://api.web3forms.com/submit" method="post">
+                <form class="form-group" action="https://api.web3forms.com/submit" method="post">
                     <input type="hidden" name="access_key" value="cdcb5b9b-bb8b-42ff-8375-8ec5f4a7399d">
-                    <label for="name">Nom</label>
-                    <input type="text" name="username"/>
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="username"/>
                     <br/>
-                    <label for="email">Email</label>
-                    <input type="email" name="email"/>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"/>
                     <br/>
-                    <label for="message">Message</label>
-                    <textarea name="message" rows="5" cols="30"></textarea>
+                    <label for="message">Message:</label>
+                    <textarea placeholder="Veuillez inscrire votre message dans cet emplacement." id="message" name="message" rows="5" cols="30"></textarea>
                     <br/>
-                    <label for="tel">Téléphone</label>
-                    <input type="tel" name="tel"/>
+                    <label for="tel">Téléphone:</label>
+                    <input type="tel" id="tel" name="tel"/>
                     <br/>
-                    <label for="checkbock">J'accèpte d'être recontacté.</label>
-                    <input type="checkbox" name="newsletter" value="no">
+                    <label for="checkbock">J'accepte d'être recontacté.</label>
+                    <input type="checkbox" id="checkbox" name="newsletter" value="yes">
                     <br/>
                     <button type="submit">Envoyer</button>
                 </form>
             </th>
         </tr>
     </table>
+    </div>
 </body>
 </html>
