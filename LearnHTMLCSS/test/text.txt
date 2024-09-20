@@ -25,4 +25,20 @@ wrapper
 h1, h2, h3, h4, h5, h6
 font-family: var(--font-title);
 
+flex column pour responsive
+
 ajouter un before
+
+Prochain site :
+- Dessiner à l'avance le projet. Prévoir un grid global composé de flex.
+-Définir en premier lieu dans le css : root (mettre font fonttittle primary et secondary color sous forme de variable pour faire appel) html, body, wrapper
+- Accueil, Blog comprenant une prévisualisation de trois articles + faire les pages d'articles.
+-Form de contact avec API web3form.
+-Penser à réaliser le responsive sur 3 médias, tablette téléphone et ordinateur.
+- S'assurer que la note du Lighthouse soit bonne.
+-Ne pas oublier le footer...
+- Ajouter une flèche back to top
+-Importer les logos des réseaux sociaux via fontawesome et son cdn.
+-Importer la police d'écriture roboto via google font
+
+
