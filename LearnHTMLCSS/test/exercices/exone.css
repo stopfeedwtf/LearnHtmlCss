@@ -1,0 +1,42 @@
+body{
+    background-color: red;
+}
+.first{
+    background-color: blue;
+}
+.second{
+    background-color: green;
+}
+.third{
+    background-color: yellow;
+}
+.fourth{
+    background-color: pink;
+}
+.fifth{
+    background-color: purple;
+    position:absolute;
+    bottom:20px;
+}
+.responsive-tablet{
+    display:inline;
+}
+.responsive-desktop{
+    display:inline;
+}
+@media screen and (min-width: 481px){
+    .responsive-tablet{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+}
+@media screen and (min-width: 780px){
+    .responsive-desktop{
+        display:flex;
+    }
+    .responsive-tablet{
+        display:block;
+    }
+}

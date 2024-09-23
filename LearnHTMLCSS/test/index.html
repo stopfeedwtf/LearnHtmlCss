@@ -12,8 +12,8 @@
 <body>
     <div class="wrapper">
     <nav class="container navigation">
-        <a href="./index.html">Accueil</a>
-        <a href="./blog.html">Blog</a>
+        <a title="Accueil du portfolio de Léo Bozon" href="./index.html">Accueil</a>
+        <a title="Blog de Léo Bozon" href="./blog.html">Blog</a>
     </nav>
     <h1>Portfolio de Léo Bozon</h1>
         <div class="infperso">
@@ -26,28 +26,33 @@
             <p>Experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti, soluta incidunt sunt ipsam a velit saepe sequi minima rerum odio excepturi debitis in ratione ea. Ipsum, rem ad? Tenetur!</p>
         </div>
         <h2 class="separator">Liens utiles</h2>
-        <div><span><b>Liens Utiles : </b></span><a href="https://github.com/stopfeedwtf" target="_blank">Github</a>
+        <div><span><b>Liens Utiles : </b></span><a title="Redirection vers le Github de Léo Bozon" href="https://github.com/stopfeedwtf" target="_blank">Github</a>
         </div>
         <h2 class="separator">Contact</h2>
         <div>
-            <form class="form-group" action="https://api.web3forms.com/submit" method="post">
+            <form class="form-group" action="https://api.web3forms.com/submit" method="post" autpcomplete="on">
             <input type="hidden" name="access_key" value="cdcb5b9b-bb8b-42ff-8375-8ec5f4a7399d">
             <label for="name">Nom:</label>
-            <input type="text" id="name" name="username"/>
+            <input type="text" id="name" name="username" autocomplete="name"/>
             <br/>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email"/>
+            <input type="email" id="email" name="email" autocomplete="email"/>
             <br/>
-            <label for="message">Message:</label>
-            <textarea placeholder="Veuillez inscrire votre message dans cet emplacement." id="message" name="message" rows="5" cols="30"></textarea>
+            <label for="contact-form-message">Message:</label>
+            <textarea placeholder="Veuillez inscrire votre message dans cet emplacement." id="contact-form-message" name="message" rows="5" cols="30"></textarea>
             <br/>
             <label for="tel">Téléphone:</label>
             <input type="tel" id="tel" name="tel"/>
             <br/>
-            <label for="checkbock">J'accepte d'être recontacté.</label>
-            <input type="checkbox" id="checkbox" name="newsletter" value="yes">
+            <fieldset>
+                <legend>Vous souhaitez être recontacté ?</legend>
+                <input type="radio" id="oui" name="contact" value="oui">
+                <label for="oui">Oui</label>
+                <input type="radio" id="non" name="contact" value="non">
+                <label for="non">Non</label>
+            </fieldset>
             <br/>
-            <button type="submit">Envoyer</button>
+            <button title="Envoyez votre formulaire complété." type="submit">Envoyer</button>
             </form>
         </div>
     </div>

@@ -5,20 +5,20 @@ body {
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 400;
-        color: black;
-        background-color: rgb(140, 154, 180)
+        color: rgb(51, 51, 51);
+        background-color: rgb(232, 220, 202)
         }
     .container{
             padding: 10px;
         }
     .navigation{
-            background-color: rgb(231, 231, 231);
+            background-color: rgb(188, 186, 186);
         }
     a{
-            color:black
+            color: rgb(51, 51, 51)
         }
     a:hover{
-            background-color: rgb(182, 152, 197);
+            background-color: rgb(232, 220, 202);
     }
     h1,h2{
         display: flex;
@@ -30,7 +30,7 @@ body {
         font-size: 1.5rem;
     }
     .daily-content{
-        border: 1px solid black;
+        border: 1px solid rgb(51, 51, 51);
         border-radius: 5px;
         padding: 10px;
         margin: 10px;
@@ -43,7 +43,7 @@ body {
     .form-group{
         margin: 50px;
         padding: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(51, 51, 51);
         border-radius: 10px;
         display:flex;
         justify-content: space-evenly;
@@ -54,21 +54,21 @@ body {
         display:flex;
     }
     .form-group>input{
-        border: 1px solid black;
+        border: 1px solid rgb(51, 51, 51);
         border-radius: 5px;
     }
     .form-group>textarea{
-        border: 1px solid black;
+        border: 1px solid rgb(51, 51, 51);
         border-radius: 5px;
     }
     aside{
         font-weight: 700;
     }
     textarea::placeholder{
-        color: brown;
+        color: rgb(51, 51, 51);
     }
     input:checked{
-        border: 10px solid rgb(182, 152, 197);
+        border: 10px solid rgb(51, 51, 51);
     }
     .infperso{
         display:flex;
@@ -82,7 +82,7 @@ body {
         content: ".......";
         font-size:2rem;
         font-weight: 700;
-        color:red;
+        color: rgb(51, 51, 51);
     }
     .article-content{
         display:flex;
@@ -103,7 +103,7 @@ body {
     }
     .article-preshow-box{
         padding:20px;
-        border: 2px solid black;
+        border: 2px solid rgb(51, 51, 51);
         text-align: center;
     }
     .article-preshow-title{
@@ -112,7 +112,7 @@ body {
     }
     .top{
         display: inline-block;
-        background-color: rgb(182,152,197);
+        background-color: rgb(186, 186, 186);
         width: 50px;
         height: 50px;
         text-align: center;
