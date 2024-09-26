@@ -41,4 +41,7 @@ Prochain site :
 -Importer les logos des réseaux sociaux via fontawesome et son cdn.
 -Importer la police d'écriture roboto via google font
 - shadowbox
+carte d'achat correspond à la grille des prix
+favicon
+booking et airbnb
 
